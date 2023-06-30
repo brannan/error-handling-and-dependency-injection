@@ -149,10 +149,6 @@ mod tests {
         http::{self, Request, StatusCode},
     };
     use serde_json::Value;
-    // use serde_json::json;
-    // use std::net::SocketAddr;
-    // use tokio::net::TcpListener;
-    // use tower::Service; // for `call`
     use tower::ServiceExt;
 
     #[tokio::test]
